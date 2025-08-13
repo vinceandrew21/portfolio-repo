@@ -11,15 +11,12 @@ import {
 export default function Projects() {
     return (
         <div className="flex flex-col flex-1 animate-fade-right animate-ease-in-out">
-            <div className='flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-24'>
-                <h2 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-terminal size-6 animate-pulse stroke-[1.5]">
-                        <polyline points="4 17 10 11 4 5"></polyline>
-                        <line x1="12" x2="20" y1="19" y2="19"></line>
-                    </svg>Projects &amp; Designs
+            <div className='flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-10'>
+                <h2 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center">
+                  Projects &amp; Designs
                 </h2>
                 <div className='flex flex-col gap-4'>
-                    <div className='rounded-lg bg-card text-card-foreground flex flex-col border shadow w-full z-10'>
+                    <div className='rounded-lg text-card-foreground bg-slate-50  flex flex-col border shadow w-full z-10 pr-10 pl-10 pt-3 rounded-lg shadow-lg transform duration-500 hover:bg-zinc-50 hover:-translate-y-1 pointer-events-auto'>
                         <div className="flex flex-col space-y-2 p-4">
                             <h3 className="font-semibold tracking-tight text-xl text-primary">
                                 <a href="https://vincedejuan.me/" target="_blank" rel="noreferrer" className="inline-flex items-center hover:underline group underline-offset-4 gap-2" data-state="closed">
@@ -62,18 +59,15 @@ export default function Projects() {
                 </div>
             </div>
             <div className='flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-24'>
-                <h2 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-terminal size-6 animate-pulse stroke-[1.5]">
-                        <polyline points="4 17 10 11 4 5"></polyline>
-                        <line x1="12" x2="20" y1="19" y2="19"></line>
-                    </svg>Sample Photos
+                <h2 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center">
+                    Sample Photo Editing
                 </h2>
                 <div className='flex flex-col gap-4'>
-                    <div className='rounded-lg bg-card text-card-foreground flex flex-col border shadow w-full z-10'>
+                    <div className='rounded-lg bg-card text-card-foreground text-card-foreground bg-slate-50  flex flex-col border shadow w-full z-10 '>
                         <Carousel>
                             <CarouselContent>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/1.jpg"
                                     width={3000}
                                     height={2000}
@@ -81,7 +75,7 @@ export default function Projects() {
                                 />
                                 </CarouselItem>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/2.jpg"
                                     width={3000}
                                     height={2000}
@@ -89,7 +83,7 @@ export default function Projects() {
                                 />
                                 </CarouselItem>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/3.jpg"
                                     width={3000}
                                     height={2000}
@@ -97,7 +91,7 @@ export default function Projects() {
                                 />
                                 </CarouselItem>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/4.jpg"
                                     width={3000}
                                     height={2000}
@@ -105,7 +99,7 @@ export default function Projects() {
                                 />
                                 </CarouselItem>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/5.jpg"
                                     width={3000}
                                     height={2000}
@@ -113,7 +107,7 @@ export default function Projects() {
                                 />
                                 </CarouselItem>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/6.jpg"
                                     width={3000}
                                     height={2000}
@@ -121,7 +115,7 @@ export default function Projects() {
                                 />
                                 </CarouselItem>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/7.jpg"
                                     width={3000}
                                     height={2000}
@@ -129,7 +123,7 @@ export default function Projects() {
                                 />
                                 </CarouselItem>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/8.jpg"
                                     width={3000}
                                     height={2000}
@@ -137,14 +131,14 @@ export default function Projects() {
                                 />
                                 </CarouselItem>
                                 <CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/9.jpg"
                                     width={3000}
                                     height={2000}
                                     alt="before"
                                 />
                                 </CarouselItem><CarouselItem >
-                                    <Image
+                                    <Image className="rounded-lg object-cover object-center"
                                     src="/10.jpg"
                                     width={3000}
                                     height={2000}

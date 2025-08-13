@@ -6,38 +6,16 @@ export default function Career() {
     <div className="flex flex-col flex-1 animate-fade-right animate-ease-in-out">
       <section
         id="career"
-        className="flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-24"
+        className="flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-10"
       >
-        <h2 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="lucide lucide-file-text size-6 animate-pulse stroke-[1.5]"
-          >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
-            <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
-            <path d="M10 9H8"></path>
-            <path d="M16 13H8"></path>
-            <path d="M16 17H8"></path>
-          </svg>
-          Career &amp; Works
-        </h2>
-
-        <ol className="relative border-s dark:border-neutral-600 border-neutral-400 ml-[11.5px] flex flex-col gap-y-8">
+        <ol>
 
           {/* Zerosyslabs */}
           <li className="ms-[30px]">
-            <div className="absolute size-3 dark:bg-neutral-600 bg-neutral-400 rounded-full mt-[8.5px] -start-[6.5px] border border-white dark:border-black"></div>
+            <h3 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center mt-4 mb-4">ZEROSYSLABS</h3>
 
             <div className="flex gap-x-2 mb-4 items-center">
-              <h3 className="text-xl font-bold text-neutral-900 dark:text-neutral-100">Zerosyslabs</h3>
+              
               <div className="inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow rounded-md whitespace-nowrap">
                 Next.Js
               </div>
@@ -51,9 +29,10 @@ export default function Career() {
                 shadcn
               </div>
             </div>
+            <div className='rounded-lg text-card-foreground bg-slate-50  flex flex-col border shadow w-full z-10 pl-10 pt-3 rounded-lg shadow-lg transform duration-500 hover:bg-zinc-50 hover:-translate-y-1 pointer-events-auto'>
 
             <div className="mb-4">
-              <h4 className="text-lg font-medium dark:text-neutral-100 text-neutral-900">
+              <h4 className="text-lg font-semibold dark:text-neutral-100 text-neutral-900">
                 Junior Zerosys Full-stack Software Developer
               </h4>
               <time className="text-sm font-mono leading-none text-neutral-800 dark:text-neutral-200">
@@ -66,14 +45,15 @@ export default function Career() {
                 <li>• Test functionalities of different website functions</li>
               </ul>
             </div>
+            </div>
 
             <a
               href="https://www.zerosyslabs.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 shadow mt-4 p-2 flex items-center"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 shadow mt-4 mb-4 p-2 flex items-center"
             >
-              <p className="font-medium">Visit Zerosyslabs&apos;s page</p>
+              <p className="font-medium mb-">Visit Zerosyslabs&apos;s page</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -94,10 +74,8 @@ export default function Career() {
 
           {/* QHI MEDIA */}
           <li className="ms-[30px]">
-            <div className="absolute size-3 dark:bg-neutral-600 bg-neutral-400 rounded-full mt-[8.5px] -start-[6.5px] border border-white dark:border-black"></div>
-
-            <div className="flex gap-x-2 mb-4 items-center">
-              <h3 className="text-xl font-bold text-neutral-900 dark:text-neutral-100">Quality Home Images / QHI Media</h3>
+            <h3 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center mt-4 mb-4">Quality Home Images / QHI Media</h3>
+               <div className="flex gap-x-2 mb-4 items-center">
               <div className="inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow rounded-md whitespace-nowrap">
                 Photoshop
               </div>
@@ -105,9 +83,9 @@ export default function Career() {
                 Lightroom
               </div>
             </div>
-
+            <div className='rounded-lg text-card-foreground bg-slate-50  flex flex-col border shadow w-full z-10 pl-10 pt-3 rounded-lg shadow-lg transform duration-500 hover:bg-zinc-50 hover:-translate-y-1 pointer-events-auto'>
             <div className="mb-4">
-              <h4 className="text-lg font-medium dark:text-neutral-100 text-neutral-900">
+              <h4 className="text-lg font-semibold dark:text-neutral-100 text-neutral-900">
                 Senior Photo Editor
               </h4>
               <time className="text-sm font-mono leading-none text-neutral-800 dark:text-neutral-200">
@@ -121,12 +99,13 @@ export default function Career() {
                 <li>• Provided video tutorials for the other Editors</li>
               </ul>
             </div>
+            </div>
 
             <a
               href="https://qualityhomeimages.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 shadow mt-4 p-2 flex items-center"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 shadow mt-4 mb-4 mt-4 p-2 flex items-center"
             >
               <p className="font-medium">Visit Quality Home Image&apos;s page</p>
               <svg
@@ -149,10 +128,10 @@ export default function Career() {
 
           {/* WCUBE solutions */}
           <li className="ms-[30px]">
-            <div className="absolute size-3 dark:bg-neutral-600 bg-neutral-400 rounded-full mt-[8.5px] -start-[6.5px] border border-white dark:border-black"></div>
+            
+              <h3 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center mt-4 mb-4">WCube Solutions</h3>
 
             <div className="flex gap-x-2 mb-4 items-center">
-              <h3 className="text-xl font-bold text-neutral-900 dark:text-neutral-100">WCube Solutions</h3>
               <div className="inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow rounded-md whitespace-nowrap">
                 Full Stack
               </div>
@@ -166,9 +145,9 @@ export default function Career() {
                 MySQL
               </div>
             </div>
-
+            <div className='rounded-lg text-card-foreground bg-slate-50  flex flex-col border shadow w-full z-10 pr-10 pl-10 pt-3 rounded-lg shadow-lg transform duration-500 hover:bg-zinc-50 hover:-translate-y-1 pointer-events-auto'>
             <div className="mb-4">
-              <h4 className="text-lg font-medium dark:text-neutral-100 text-neutral-900">
+              <h4 className="text-lg font-semibold dark:text-neutral-100 text-neutral-900">
                 Junior Full Stack Web Developer
               </h4>
               <time className="text-sm font-mono leading-none text-neutral-800 dark:text-neutral-200">
@@ -179,13 +158,14 @@ export default function Career() {
                 <li>• Created and maintained project documentation, including wireframes and development processes</li>
                 <li>• Optimized website performance and user experience across multiple browsers and devices</li>
               </ul>
+              </div>
             </div>
 
             <a
               href="https://www.wcubesolutions.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 shadow mt-4 p-2 flex items-center"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 shadow mb-4 mt-4 p-2 flex items-center"
             >
               <p className="font-medium">Visit WCube Solutions&apos;s page</p>
               <svg
@@ -208,10 +188,9 @@ export default function Career() {
 
           {/* KyroshTech Corporation */}
           <li className="ms-[30px]">
-            <div className="absolute size-3 dark:bg-neutral-600 bg-neutral-400 rounded-full mt-[8.5px] -start-[6.5px] border border-white dark:border-black"></div>
-
+            <h3 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center mt-4 mb-4">KyroshTech Corporation</h3>
             <div className="flex gap-x-2 mb-4 items-center">
-              <h3 className="text-xl font-bold text-neutral-900 dark:text-neutral-100">KyroshTech Corporation</h3>
+              
               <div className="inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow rounded-md whitespace-nowrap">
                 Full-Stack
               </div>
@@ -222,9 +201,9 @@ export default function Career() {
                 Graphics Designer
               </div>
             </div>
-
+            <div className='rounded-lg text-card-foreground bg-slate-50  flex flex-col border shadow w-full z-10 pr-10 pl-10 pt-3 rounded-lg shadow-lg transform duration-500 hover:bg-zinc-50 hover:-translate-y-1 pointer-events-auto'>
             <div className="mb-4">
-              <h4 className="text-lg font-medium dark:text-neutral-100 text-neutral-900">
+              <h4 className="text-lg font-semibold dark:text-neutral-100 text-neutral-900">
                 Full Stack Web Developer
               </h4>
               <time className="text-sm font-mono leading-none text-neutral-800 dark:text-neutral-200">
@@ -237,6 +216,7 @@ export default function Career() {
                 <li>• Utilized Git for version control and Agile methodologies for project management</li>
                 <li>• Collaborated with clients to deliver tailored solutions meeting specific business requirements</li>
               </ul>
+            </div>
             </div>
           </li>
 
