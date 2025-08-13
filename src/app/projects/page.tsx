@@ -10,8 +10,8 @@ import {
 
 export default function Projects() {
     return (
-        <div className="flex flex-col flex-1 animate-fade-right animate-ease-in-out">
-            <div className='flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-10'>
+        <div className="flex flex-col flex-1">
+            <div className='flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-10  animate-fade-right animate-ease-in-out'>
                 <h2 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center">
                   Projects &amp; Designs
                 </h2>
@@ -58,7 +58,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-24'>
+            <div className='flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-24  animate-fade-left animate-ease-in-out'>
                 <h2 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center">
                     Sample Photo Editing
                 </h2>

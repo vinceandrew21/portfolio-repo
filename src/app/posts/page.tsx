@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Career() {
   return (
-    <div className="flex flex-col flex-1 animate-fade-right animate-ease-in-out">
+    <div className="flex flex-col flex-1">
       <section
         id="career"
         className="flex flex-col min-h-0 gap-y-4 scroll-mt-24 w-full md:max-w-3xl mx-auto pb-10"
@@ -11,7 +11,7 @@ export default function Career() {
         <ol>
 
           {/* Zerosyslabs */}
-          <li className="ms-[30px]">
+          <li className="ms-[30px] animate-fade-right animate-ease-in-out">
             <h3 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center mt-4 mb-4">ZEROSYSLABS</h3>
 
             <div className="flex gap-x-2 mb-4 items-center">
@@ -73,7 +73,7 @@ export default function Career() {
           </li>
 
           {/* QHI MEDIA */}
-          <li className="ms-[30px]">
+          <li className="ms-[30px] animate-fade-left animate-ease-in-out">
             <h3 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center mt-4 mb-4">Quality Home Images / QHI Media</h3>
                <div className="flex gap-x-2 mb-4 items-center">
               <div className="inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow rounded-md whitespace-nowrap">
@@ -127,7 +127,7 @@ export default function Career() {
           </li>
 
           {/* WCUBE solutions */}
-          <li className="ms-[30px]">
+          <li className="ms-[30px] animate-fade-right animate-ease-in-out">
             
               <h3 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center mt-4 mb-4">WCube Solutions</h3>
 
@@ -187,7 +187,7 @@ export default function Career() {
           </li>
 
           {/* KyroshTech Corporation */}
-          <li className="ms-[30px]">
+          <li className="ms-[30px] animate-fade-left animate-ease-in-out">
             <h3 className="dark:text-neutral-100 text-neutral-800 flex gap-x-4 items-center text-3xl font-bold text-balance z-10 justify-center mt-4 mb-4">KyroshTech Corporation</h3>
             <div className="flex gap-x-2 mb-4 items-center">
               
